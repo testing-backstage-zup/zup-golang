@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Microservico Itaú
+  description: Itaú
+  annotations: 
+    github.com/project-slug: testing-backstage-zup/zup-golang
+    backstage.io/github-actions-id: testing-backstage-zup/zup-golang
+spec:
+  type: service
+  lifecycle: experimental
+  owner: joaofilipecb
